@@ -1,0 +1,70 @@
+//Manuel Barbadillo's My Way to Cybernetics: 20x26 1/2 copy
+
+void setup(){
+  size(800, 610) ;
+  background(0,75) ;
+}
+
+void draw(){
+  noStroke();
+
+  fill(255);
+   whtBox (133,310);
+   whtBox (133,410);
+   whtBox (133,510);
+   
+   whtBox (266,10);
+   whtBox (266,110);
+   whtBox (266,210);
+   
+   whtBox (399,10);
+   whtBox (399,110);
+   whtBox (399,210);
+   
+   whtBox (532,310);
+   whtBox (532,410);
+   whtBox (532,510);
+   
+   whtBox (665,310);
+   whtBox (665,410);
+   whtBox (665,510);
+   
+  rect(13,310,110, 290);
+  rect(133,10,120, 290);
+  rect(266,310,253, 290);
+  
+  fill(0);
+  blkBox(148,15);
+  blkBox(148,109);
+  blkBox(148,205);
+  
+   blkBox(22.5,317);
+   blkBox(22.5,412);
+   blkBox(22.5,507);
+   
+   blkBox(290,317);
+   blkBox(290,412);
+   blkBox(290,507);
+   
+   blkBox(404,317);
+   blkBox(404,412);
+   blkBox(404,507);
+  
+  }
+  
+void whtBox(float x, float y){
+  
+  noStroke();
+  rect(x,y,120,90);
+
+}
+
+void blkBox(float x, float y){
+
+  noStroke();
+  rect(x,y,90,88);
+}
+
+  
+
+  
