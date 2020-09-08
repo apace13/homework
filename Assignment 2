@@ -1,0 +1,62 @@
+float circleX;
+float circleY;
+
+void setup(){
+  size(800, 600) ;
+  frameRate(20);
+  
+  
+}
+
+void draw(){
+  background(#F8D2BB) ;
+  stroke(#F8D2BB);
+ 
+  fill(#6BBFB0);
+  ellipse(200,200,pmouseX+250,pmouseY+300);
+  
+  ellipse(200,200,pmouseX+200, 250);
+  
+  ellipse(200,200,pmouseX+150,200);
+  
+  ellipse(200,200,pmouseX+100,150);
+  
+  ellipse(200,200,pmouseX+50,100);
+  
+  ellipse(200,200,pmouseX,50);
+  
+  
+  fill(#F2C53D);
+  ellipse(600,400,pmouseX+250,pmouseY+300);
+  
+  ellipse(600,400,pmouseX+200, 250);
+  
+  ellipse(600,400,pmouseX+150,200);
+  
+  ellipse(600,400,pmouseX+100,150);
+  
+  ellipse(600,400,pmouseX+50,100);
+  
+  ellipse(600,400,pmouseX,50);
+  
+  
+  fill(#F26666);
+  ellipse(400,300,pmouseX+250,pmouseY+300);
+  
+  ellipse(400,300,pmouseX+200, 250);
+  
+  ellipse(400,300,pmouseX+150,200);
+  
+  ellipse(400,300,pmouseX+100,150);
+  
+  ellipse(400,300,pmouseX+50,100);
+  
+  ellipse(400,300,pmouseX,50);
+  
+  
+  noStroke();
+  fill(#567570);
+  ellipse(circleX, circleY, 20, 20); 
+  circleX=random(350,550);
+  circleY=random(250,350);
+}
